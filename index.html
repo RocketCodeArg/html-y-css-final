@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="container navbar__container">
+      <a href="#intro" class="navbar__item-link">
+        <span class="navbar__logo">NATI GUIDA</span>
+      </a>
+      <ul class="navbar__list-items">
+        <!-- <li class="navbar__item">
+          <a href="#intro" class="navbar__item-link">
+            <img class="navbar__item-icon" src="assets/home-solid.svg" alt="" />Inicio
+          </a>
+        </li> -->
+        <li class="navbar__item">
+          <a href="#about-me" class="navbar__item-link">
+            <img class="navbar__item-icon" src="assets/user-solid.svg" alt="" />Sobre mi
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__item-link">
+            <img class="navbar__item-icon" src="assets/briefcase-solid.svg" alt="" />Servicios
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#experience" class="navbar__item-link">
+            <img class="navbar__item-icon" src="assets/graduation-cap-solid.svg" alt="" />Experiencia
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#jobs" class="navbar__item-link">
+            <img class="navbar__item-icon" src="assets/layer-group-solid.svg" alt="" />Mis trabajos
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#contact" class="navbar__item-link">
+            <img class="navbar__item-icon" src="assets/comments-solid.svg" alt="" />Contacto
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sections">
+    <div id="intro" class="intro">
+      <div class="intro__personal-info">
+        <img class="intro__avatar" src="assets/avatar.svg" alt="">
+        <h1 class="intro__name">Nati Guida</h1>
+        <p class="intro__profesion">Frontend Developer</p>
+        <ul class="intro__socials">
+          <li>
+            <a>
+              <img class="intro__item-icon" src="assets/linkedin-in-brands.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img class="intro__item-icon" src="assets/github-brands.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img class="intro__item-icon" src="assets/twitter-brands.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img class="intro__item-icon" src="assets/instagram-brands.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+        <a class="button--primary" href="">Contactame</a>
+      </div>
+      <a class="intro__scroll" href="">
+        <span class="intro__scroll-text">Scroll Down</span>
+        <img class="intro__scroll-icon" src="assets/scroll.png" alt="" />
+      </a>
+    </div>
+    <div id="about-me" class="section about-me">
+      <div class="container section__container">
+        <h2 class="section__title">Sobre mi</h2>
+        <div class="about-me__container">
+          <img class="about-me__avatar" src="assets/avatar-2.svg" alt="">
+          <div class="card about-me__content">
+            <div class="about-me__column">
+              <p class="about-me__description">Hola! Soy desarrolladora Frontend. Actualmente trabajo en MercadoLibre, y doy clases de HTML y CSS en RocketCode</p>
+              <a class="button--primary" href="">Ver curriculum</a>
+            </div>
+            <div class="about-me__column">
+              <div class="about-me__skill-container">
+                <span class="about-me__skill-title">HTML</span>
+                <div class="about-me__skill-bar">
+                  <div class="about-me__skill-bar about-me__skill-bar--html"></div>
+                </div>
+              </div>
+              <div class="about-me__skill-container">
+                <span class="about-me__skill-title">CSS</span>
+                <div class="about-me__skill-bar">
+                  <div class="about-me__skill-bar about-me__skill-bar--css"></div>
+                </div>
+              </div>
+              <div class="about-me__skill-container">
+                <span class="about-me__skill-title">UX/UI</span>
+                <div class="about-me__skill-bar">
+                  <div class="about-me__skill-bar about-me__skill-bar--ux"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services" class="section services">
+      <div class="container section__container">
+        <h2 class="section__title">Servicios</h2>
+        <div class="services__container">
+          <div class="card services__card services__card--html">
+            <img class="services__picture" src="assets/dev.svg" alt="" />
+            <h3 class="services__title">HTML</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+          </div>
+          <div class="card services__card services__card--css">
+            <img class="services__picture" src="assets/css.svg" alt="" />
+            <h3 class="services__title">CSS</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+          </div>
+          <div class="card services__card services__card--ux">
+            <img class="services__picture" src="assets/ux.svg" alt="" />
+            <h3 class="services__title">UX / UI</h3>
+            <p class="services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="experience" class="section experience">
+      <div class="container section__container">
+        <h2 class="section__title">Experiencia</h2>
+        <div class="experience__container">
+          <div class="card experience__card">
+            <div class="experience__content">
+              <img class="experience__icon" src="assets/graduation-cap-solid-alternative.svg" alt="">
+              <span class="experience__hint">2017 - 2019</span>
+              <h3 class="experience__title">Academy</h3>
+              <p class="experience__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience__content">
+              <img class="experience__icon" src="assets/graduation-cap-solid-alternative.svg" alt="">
+              <span class="experience__hint">2017 - 2019</span>
+              <h3 class="experience__title">Academy</h3>
+              <p class="experience__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience__content">
+              <img class="experience__icon" src="assets/graduation-cap-solid-alternative.svg" alt="">
+              <span class="experience__hint">2017 - 2019</span>
+              <h3 class="experience__title">Academy</h3>
+              <p class="experience__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+          </div>
+          <div class="card experience__card">
+            <div class="experience__content">
+              <img class="experience__icon" src="assets/briefcase-solid-alternative.svg" alt="">
+              <span class="experience__hint">2017 - 2019</span>
+              <h3 class="experience__title">Academy</h3>
+              <p class="experience__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience__content">
+              <img class="experience__icon" src="assets/briefcase-solid-alternative.svg" alt="">
+              <span class="experience__hint">2017 - 2019</span>
+              <h3 class="experience__title">Academy</h3>
+              <p class="experience__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience__content">
+              <img class="experience__icon" src="assets/briefcase-solid-alternative.svg" alt="">
+              <span class="experience__hint">2017 - 2019</span>
+              <h3 class="experience__title">Academy</h3>
+              <p class="experience__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="jobs" class="section jobs">
+      <div class="container section__container">
+        <h2 class="section__title">Mis trabajos</h2>
+        <div class="jobs__container">
+          <div class="card jobs__card">
+            <img class="jobs__picture" src="assets/trabajo-1.svg" alt="">
+            <a href="" target="_blank">
+              <div class="jobs__mask">
+                <h3 class="jobs__title">project title</h3>
+              </div>
+            </a>
+          </div>
+          <div class="card jobs__card">
+            <img class="jobs__picture" src="assets/trabajo-2.svg" alt="">
+            <a href="" target="_blank">
+              <div class="jobs__mask">
+                <h3 class="jobs__title">project title</h3>
+              </div>
+            </a>
+          </div>
+          <div class="card jobs__card">
+            <img class="jobs__picture" src="assets/trabajo-3.svg" alt="">
+            <a href="" target="_blank">
+              <div class="jobs__mask">
+                <h3 class="jobs__title">project title</h3>
+              </div>
+            </a>
+          </div>
+          <div class="card jobs__card">
+            <img class="jobs__picture" src="assets/trabajo-4.svg" alt="">
+            <a href="" target="_blank">
+              <div class="jobs__mask">
+                <h3 class="jobs__title">project title</h3>
+              </div>
+            </a>
+          </div>
+          <div class="card jobs__card">
+            <img class="jobs__picture" src="assets/trabajo-5.svg" alt="">
+            <a href="" target="_blank">
+              <div class="jobs__mask">
+                <h3 class="jobs__title">project title</h3>
+              </div>
+            </a>
+          </div>
+          <div class="card jobs__card">
+            <img class="jobs__picture" src="assets/trabajo-6.svg" alt="">
+            <a href="" target="_blank">
+              <div class="jobs__mask">
+                <h3 class="jobs__title">project title</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="section contact">
+      <div class="container section__container">
+        <h2 class="section__title">Contactame</h2>
+        <div class="contact__container">
+          <div class="contact__info">
+            <h3>¡Enviame un mensaje!</h3>
+            <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            <p>👋🏼</p>
+          </div>
+          <div class="contact__form-container">
+            <form class="contact__form">
+              <div class="contact__inputs-container">
+                <input class="input" name="name" placeholder="Nombre" />
+                <input class="input" name="email" placeholder="Email" />
+              </div>
+              <textarea class="input" name="message" placeholder="message"></textarea>
+              <input class="button--primary" type="submit" value="Enviar" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
